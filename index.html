@@ -14,73 +14,73 @@
   </head>
   <body>
     <section id="section" class="banner">
-      <div class="section__contaniner">
-        <img src="./assets/profile.jpeg" alt="profile_img" />
-        <div class="banner_container">
-          <h1 class="banner__name">
-            Yuchan Kang
-          </h1>
-          <h3 class="banner__description">
-            Welcome to my blog!
-          </h3>
-        </div>
+      <img
+        src="./assets/profile.jpeg"
+        alt="profile_img"
+        class="banner__avatar"
+      />
+      <div class="banner_container">
+        <h1 class="banner__name">
+          Yuchan Kang
+        </h1>
+        <h3 class="banner__description">
+          Welcome to my blog!
+        </h3>
       </div>
     </section>
-    <section id="section" class="content">
-      <div class="content__post">
-        <div class="content__post-img">
-          <img src="./assets/office.jpg" alt="office" />
-        </div>
-        <div class="content__post-description">
-          <h4 class="description__date">Mon Feb 10 2020</h4>
-          <div class="description__content">
-            <h2 class="description-title">My first job as developer</h2>
-            <p class="description-main">
-              In college, I met a friend at a computer club who was showing a
-              really cool application where you can swipe between different
-              types of clothing!\nBeing very intrigued, I asked my friend if
-              there is any way I can help out and join the team! After some
-              thinking, he told me to finish an assignment, and then they will
-              consider me. Over the weekend, I finished the assignment and was
-              right away told I can join the team, though I would be working for
-              free. That was completely fine for me!
-            </p>
+    <section id="section" class="posts">
+      <div class="main">
+        <div class="main__container">
+          <div class="post">
+            <div class="post-image"></div>
+            <div class="post-content">
+              <h4 class="post-date">Mon Feb 10 2020</h4>
+              <h2 class="post-title">My first job as developer</h2>
+              <p class="post-text">
+                In college, I met a friend at a computer club who was showing a
+                really cool application where you can swipe between different
+                types of clothing!\nBeing very intrigued, I asked my friend if
+                there is any way I can help out and join the team! After some
+                thinking, he told me to finish an assignment, and then they will
+                consider me. Over the weekend, I finished the assignment and was
+                right away told I can join the team, though I would be working
+                for free. That was completely fine for me!
+              </p>
+            </div>
           </div>
-        </div>
-      </div>
-      <div class="content__post">
-        <div class="content__post-img">
-          <img src="./assets/js.png" alt="js" />
-        </div>
-        <div class="content__post-description">
-          <h4 class="description__date">Mon Feb 10 2020</h4>
-          <div class="description__content">
-            <h2 class="description-title">I LOVE JavaScript</h2>
-            <p class="description-main">
-              I have been using JavaScript since the beginning of my coding
-              career! I used it to build simple websites and I used it to build
-              large scale applications! Now I use it to teach others, as well as
-              create large applications. The possibilities of this language are
-              endless, and the use cases keep increasing every single day!
-            </p>
+          <div class="post">
+            <div class="post-image"></div>
+            <div class="post-content">
+              <h4 class="post-date">Mon Feb 10 2020</h4>
+              <h2 class="post-title">My first job as developer</h2>
+              <p class="post-text">
+                In college, I met a friend at a computer club who was showing a
+                really cool application where you can swipe between different
+                types of clothing!\nBeing very intrigued, I asked my friend if
+                there is any way I can help out and join the team! After some
+                thinking, he told me to finish an assignment, and then they will
+                consider me. Over the weekend, I finished the assignment and was
+                right away told I can join the team, though I would be working
+                for free. That was completely fine for me!
+              </p>
+            </div>
           </div>
-        </div>
-      </div>
-      <div class="content__post">
-        <div class="content__post-img">
-          <img src="./assets/desk.jpg" alt="desk" />
-        </div>
-        <div class="content__post-description">
-          <h4 class="description__date">Mon Feb 10 2020</h4>
-          <div class="description__content">
-            <h2 class="description-title">Why learning coding is important?</h2>
-            <p class="description-main">
-              Nowadays with everything being electronic, everything needs to be
-              programmed! From computers, to cars, machines, or anything else it
-              most likely requires programming! So as a result, demand for
-              coders keeps increasing year by year, due to all these
-              technological advances!
-            </p>
+          <div class="post">
+            <div class="post-image"></div>
+            <div class="post-content">
+              <h4 class="post-date">Mon Feb 10 2020</h4>
+              <h2 class="post-title">My first job as developer</h2>
+              <p class="post-text">
+                In college, I met a friend at a computer club who was showing a
+                really cool application where you can swipe between different
+                types of clothing!\nBeing very intrigued, I asked my friend if
+                there is any way I can help out and join the team! After some
+                thinking, he told me to finish an assignment, and then they will
+                consider me. Over the weekend, I finished the assignment and was
+                right away told I can join the team, though I would be working
+                for free. That was completely fine for me!
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -90,9 +90,13 @@
         Made with 💗 by Yuchan Kang
       </span>
     </section>
-    <button id="addPost">
-      <i class="fas fa-plus"></i>
-    </button>
+    <div class="add-post">
+      <a href="new-post.html">
+        <div class="nav-button new-post-button">
+          <i class="fas fa-plus"></i>
+        </div>
+      </a>
+    </div>
     <script src="js/index.js"></script>
   </body>
 </html>

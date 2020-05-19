@@ -41,7 +41,7 @@ const buildPost = (param) => {
   const postDate = new Date(parseInt(param.added_date)).toDateString();
   const postImage = `${API_BASE_URL}${param.post_image}`;
   dataContent += ` 
-      <header class="individual-banner" style="background-image: url(${postImage})"></header>
+      <header class="individual-banner" style="background: url(${postImage}) center/cover no-repeat;"></header>
       <div class="main">
         <div class="main-container">
           <div class="navigation">

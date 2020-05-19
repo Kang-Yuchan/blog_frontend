@@ -34,7 +34,6 @@
 }
 
 .individual-banner {
-  background: url("../assets/new_post.jpg") center/cover no-repeat;
   height: 350px;
 }
 
@@ -66,4 +65,6 @@
 #individual-post-content {
   padding: 16px;
   color: #495057;
+  font-size: var(--font-regular);
+  line-height: 30px;
 }

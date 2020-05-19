@@ -25,10 +25,12 @@ body {
 
 h1 {
   font-size: var(--font-large);
+  font-weight: 600;
 }
 
 h2 {
   font-size: var(--font-medium);
+  font-weight: 600;
 }
 
 h3 {
@@ -78,6 +80,13 @@ a {
   border: 1px solid #eaecee;
   border-radius: 8px;
   overflow: hidden;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.post:hover {
+  transform: translate3d(0, -10px, 0) scale(1.04);
+  box-shadow: 0 2rem 5rem 0 rgba(0, 0, 0, 0.1);
 }
 
 .post-image {
@@ -99,6 +108,7 @@ a {
   padding: 0;
   line-height: 25px;
   word-spacing: 1px;
+  overflow: hidden;
 }
 
 .banner__avatar {

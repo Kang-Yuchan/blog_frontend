@@ -1,13 +1,69 @@
+:root {
+  /* Font size */
+  --font-large: 50px;
+  --font-medium: 28px;
+  --font-regular: 18px;
+  --font-small: 16px;
+  --font-micro: 14px;
+  /* Color */
+  --color-light-grey: #fcfcfd;
+  --color-grey: #7c7979;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-cyan: #99e2ef;
+  --color-dark-cyan: #8ce0ee;
+}
+
 /* ADD styling for all of the divs in post.html to match  */
+.navigation {
+  margin: 30px 0;
+}
+
+.navigation a {
+  text-decoration: none;
+  border: 1px solid var(--color-cyan);
+  color: var(--color-cyan);
+  border-radius: 3px;
+  padding: 8px;
+  transition: all 0.2s ease;
+}
+
+.navigation a:hover {
+  background-color: var(--color-dark-cyan);
+  color: var(--color-white);
+}
+
+.individual-banner {
+  background: url("../assets/new_post.jpg") center/cover no-repeat;
+  height: 300px;
+}
+
+.main-container {
+  width: 1200px;
+}
+
+.post-container {
+  width: 100%;
+}
 
 #individual-post-title {
-
+  font-size: var(--font-large);
+  font-weight: 200;
+  text-align: center;
 }
 
 #individual-post-date {
-
+  font-size: var(--font-small);
+  color: #adb5bd;
+  font-weight: 200;
+  text-align: left;
+  border-top: 1px solid #f1f4f8;
+  border-bottom: 1px solid #f1f4f8;
+  padding: 20px 16px;
+  margin: 40px 0 20px 0;
 }
 
 #individual-post-content {
-
+  padding: 16px;
+  color: #495057;
 }

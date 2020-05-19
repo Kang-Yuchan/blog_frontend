@@ -85,7 +85,7 @@ a {
 }
 
 .post:hover {
-  transform: translate3d(0, -10px, 0) scale(1.04);
+  transform: translate3d(0, -10px, 0);
   box-shadow: 0 2rem 5rem 0 rgba(0, 0, 0, 0.1);
 }
 
@@ -132,8 +132,8 @@ a {
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
   text-align: center;
   position: fixed;
-  right: 50px;
-  bottom: 50px;
+  right: 30px;
+  bottom: 30px;
   transition: all 0.3s ease;
 }
 

@@ -40,14 +40,17 @@ form > * {
 
 header {
   height: 350px;
-  background-color: var(--color-grey);
+  background: url("../assets/banner.png") center/cover no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
   color: var(--color-white);
+  text-align: center;
 }
 
 .title {
+  font-size: var(--font-large);
+  font-weight: 600;
   margin-bottom: 10px;
 }
 
